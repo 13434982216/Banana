@@ -1,24 +1,50 @@
 {
   "$schema": "../schemas/project.schema.json",
-  "project_id": "m_0zg3",
+  "project_id": "m_kst3",
   "author": {
     "id": "548607299"
   },
   "entry": "main.lua",
   "version": "1.0.0",
   "taptap_publish": {
-    "title": "<game title, required>",
-    "description": "<game description>",
-    "category": "<game category: rpg, casual, action, strategy, simulation, trivia, arcade, adventure, card, sports, racing, puzzle, educational, music, word, board>",
+    "title": "香蕉收集屋",
+    "description": "点香蕉收集稀有藏品，再拿到玩家市场里出价、秒杀、挂单。点满 60 次掉落一根香蕉，普通香蕉可一元卖给官方，稀有款能上架交易。看价格走势、贷款周转、和全服玩家比资产。竖屏休闲收集+交易。",
+    "category": "casual",
     "screen_orientation": "portrait",
     "orientation": "portrait",
-    "collection_type": "sce",
-    "trial_note": "<developer's note>",
-    "app_platforms": "1,2"
+    "collection_type": "casual",
+    "trial_note": "联网对局。点满 60 次香蕉即可掉落，市场可挂单、出价、秒杀。普通香蕉卖给官方，稀有香蕉走玩家交易。",
+    "app_platforms": "1,2",
+    "developer_id": 259984
   },
   "assets": {
-    "icon": "",
-    "screenshots": [],
-    "promotional_image": ""
+    "icon": "./game_material/ICON_2026-09-23T00-41-03_01.png",
+    "screenshots": [
+      "./game_material/SCREENSHOT_2026-09-23T00-41-52_01.png",
+      "./game_material/SCREENSHOT_2026-09-23T00-43-06_02.png",
+      "./game_material/SCREENSHOT_2026-09-23T00-41-52_03.png"
+    ],
+    "promotional_image": "./game_material/PROMO_2026-09-23T00-41-52_01.jpg",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/香蕉收集屋/ICON_2026-09-23T00-41-03_01.png",
+    "source_screenshots": [
+      "_uploads/f816ad4b36d59d9986c31a8997a6f176d3da7e47cd3a92abee2ca57963b75ca1.png",
+      "_uploads/a2c5722bd3d966f409e94812976d8c384e8e5a3320d8d3c070daceeef8a7d2f9.png",
+      "_uploads/d306ba34cb7e6fbf3cfb657e0f25adae96f23712e3a3719ca016935fa8eb6a80.png"
+    ],
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/香蕉收集屋/SCREENSHOT_2026-09-23T00-41-52_01.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/香蕉收集屋/SCREENSHOT_2026-09-23T00-43-06_02.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/香蕉收集屋/SCREENSHOT_2026-09-23T00-41-52_03.png"
+    ],
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/香蕉收集屋/PROMO_2026-09-23T00-41-52_01.jpg",
+    "cover_vertical": "./game_material/COVER_VERTICAL_2026-09-23T00-42-37_01.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/香蕉收集屋/COVER_VERTICAL_2026-09-23T00-42-37_01.png",
+    "square_promotional_image": "./game_material/SQUARE_PROMO_2026-09-23T00-42-37_01.jpg",
+    "square_promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/香蕉收集屋/SQUARE_PROMO_2026-09-23T00-42-37_01.jpg"
+  },
+  "entry@client": "main.lua",
+  "entry@server": "main.lua",
+  "metadata": {
+    "updated_at": "2026-09-23T01:58:55.110Z"
   }
 }
